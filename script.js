@@ -6,7 +6,8 @@ function highlight() {
 
 	let pap=document.querySelectorAll("strong")
     pap.forEach((item)=>{
-        item.setAttribute("style","color:rgb(0, 128, 0);")
+        // item.setAttribute("style","color:rgb(0, 128, 0);")
+		item.style.color="rgb(0,128,0)"
     })
 
 }
@@ -17,7 +18,8 @@ function return_normal() {
 
 	let pap=document.querySelectorAll("strong")
     pap.forEach((item)=>{
-        item.setAttribute("style","color:rgb(0, 0, 0);")
+        // item.setAttribute("style","color:rgb(0, 0, 0);")
+		item.style.color="rgb(0, 0, 0)"
     })
 
     
