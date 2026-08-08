@@ -1,6 +1,13 @@
+let show=document.getElementById("ans")
+
 function highlight() {
     //Write your code here
 
+
+	let pap=document.querySelectorAll(".one")
+    pap.forEach((item)=>{
+        item.setAttribute("style","color:green;")
+    })
 
 }
 
@@ -8,5 +15,11 @@ function highlight() {
 function return_normal() {
     //Write your code here
 
+	let pap=document.querySelectorAll(".one")
+    pap.forEach((item)=>{
+        item.setAttribute("style","color:black;")
+    })
+
     
 }
+
