@@ -4,7 +4,7 @@ function highlight() {
     //Write your code here
 
 
-	let pap=document.querySelectorAll(".one")
+	let pap=document.querySelectorAll("strong")
     pap.forEach((item)=>{
         item.setAttribute("style","color:green;")
     })
